@@ -1,0 +1,37 @@
+.project{
+    margin: 0 1rem;
+   .title{
+       font-size: 30px;
+       color: black;
+       font-weight: bolder;
+       padding: 10px 20px;
+       border-bottom: 3px solid #00CC99;
+        span{
+           color: #00CC99;
+           font-weight: normal;
+        }
+    }
+    .row1{
+        width: 100%;
+        .video{
+            margin-top: 1rem;
+            margin-left: 10%;
+            width: 80%;
+            height: 250px;
+            video{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .mota{
+            text-align: center;
+            font-size: 16px;
+            margin-top: 0.3rem;
+            color: black;
+        }
+        .link{
+            padding-top: 0.6rem;
+            margin-left:10%;
+        }
+    }
+}
